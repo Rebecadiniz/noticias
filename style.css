@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma;
+    background-color: #f3f3f3;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#303030;
+    color:#f2ff00;
+    font-size: 30px;
+    text-align: center;
+}
+
+header img {
+    width: 85px;
+    margin: 25px;
+}
+
+.fotoprincipal {
+    width: 80%;
+    height: auto;
+}
+
+.topo {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.boxmaior {
+    flex: 1;
+    background-color:#111111;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.noticiaprincipal {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+h2,
+p,
+h3 {
+    text-align: center;
+}
+
+.fotoprincipal {
+    width: 100%;
+    height: auto;
+}
+
+.texto {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.boxfundo {
+    flex:1;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.boxdireita {
+    background-color: #111111;
+    color: rgb(0, 0, 0);
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.boxdireita img {
+    width: 50%;
+    height: auto;
+}
+
+.text-direita{
+    color: rgb(255, 255, 255);
+}
+
+.boxpreto img {
+    width: 40%;
+    height: auto;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.banner img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.banner h3 {
+    font-size: 20px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.nivel3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.noticia3 {
+    width: 32%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.noticia3 img {
+    width: 50%;
+    height: auto;
+}
+
+.textonoticia3 {
+    width: 80%;
+}
+
+footer {
+    background-color: #1b1b1b;
+    color:#f2ff00;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    font-size: 14px;
+}
